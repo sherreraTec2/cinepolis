@@ -62,3 +62,29 @@ li select{
   width: 250px;
   height: 250px;
 }
+
+footer span {
+  color: #feca30;
+  text-transform:uppercase;
+  margin:1.5em 0 .3em 0;
+  font-size: 1.2em
+}
+footer{
+  background:#222;
+  width:100%;
+  padding:0;
+  z-index:10;
+  position:relative;
+}
+.row4{
+  -webkit-column-count:2;
+  -moz-column-count:2;
+  column-count:2;
+  background: rgb(44, 44, 44);
+  padding-top: 2%;  
+  text-align: justify;
+}
+select{
+  block-size: 35px;
+  size: 60px;
+}
