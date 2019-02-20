@@ -54,16 +54,16 @@ li select{
   -webkit-column-count:4;
   -moz-column-count: 4;
   colum-count: 4;
-  padding-left: 100px;
+  padding-left: 20px;
   padding-right: 100px;
 }
 
 .col-l3{
-  width: 250px;
-  height: 250px;
+  width: 290px;
+  height: 290px;
 }
 
-footer span {
+.row4 span {
   color: #feca30;
   text-transform:uppercase;
   margin:1.5em 0 .3em 0;
