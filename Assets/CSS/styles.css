@@ -34,6 +34,19 @@ li select{
   width: 170px;
   border-radius: 2px;
 }
+.estrenosRentaT{
+  text-align: left;
+}
+.estrenosRentaI img{
+  width: 127px;
+  height: 191px;
+}
+.estrenosRentaI img:hover{
+  opacity: 0.5;
+}
+.estrenosRentaI .col-sm-2{
+  margin-right: 10px;
+}
 
 
 
