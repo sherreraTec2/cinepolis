@@ -34,3 +34,36 @@ li select{
   width: 170px;
   border-radius: 2px;
 }
+.row2{
+  background-color: #222222;
+  display: grid;
+  grid-template-columns: 50% 50%; 
+}
+.row2L{
+  margin: 0;
+  width: 70%;
+  max-width: 930px;
+  max-height: 60px;
+  color: #c0943d;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 1px;
+  padding: 5px;
+  background-color: #222222;
+}
+.row2L div{
+  float: left;
+}
+.row2L a{
+  color: #c0943d;
+  text-decoration-line: none;
+}
+#menu{
+  background-color: #1b1b1b;
+  display: none;
+}
+.menu_txt a{
+  text-decoration-line: none;
+  color: #ffffff;
+  padding: 5px;
+}
