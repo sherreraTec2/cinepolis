@@ -34,3 +34,18 @@ li select{
   width: 170px;
   border-radius: 2px;
 }
+
+.copyright-row {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: whitesmoke;
+  padding-left: 10em;
+  padding-right: 10em;
+  display: grid;
+  grid-template-columns: 50% 50%;;
+  color: #0b5ba1;
+}
+
+.copyright-right a{
+  float: right;
+  text-decoration: none;
+}
