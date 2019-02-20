@@ -65,5 +65,8 @@ li select{
 .menu_txt a{
   text-decoration-line: none;
   color: #ffffff;
+  padding: 15px;
+}
+.menu_carac1{
   padding: 5px;
 }
