@@ -23,7 +23,6 @@ li{
 li a{
   display: block;
   margin-left: 15px;
-  text-align: center;
   color: white;
   text-decoration: none;
 }
@@ -33,4 +32,73 @@ li select{
   height: 40px;
   width: 170px;
   border-radius: 2px;
+}
+
+.copyright-row {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: whitesmoke;
+  padding-left: 10em;
+  padding-right: 10em;
+  display: grid;
+  grid-template-columns: 50% 50%;;
+  color: #0b5ba1;
+}
+
+.copyright-right a{
+  float: right;
+  text-decoration: none;
+}
+.TitSpam{
+  font-size: 20px;
+  color: #FECA30;
+}
+
+.list1{
+  padding-bottom: 10%;
+  text-align: left;
+}
+
+.item{
+  float: none;
+  padding-bottom: 2%;
+  font-size: 20px;
+}
+
+.rowM{
+  -webkit-column-count:4;
+  -moz-column-count: 4;
+  column-count: 4;
+  padding-left: 20px;
+  padding-right: 100px;
+}
+
+.col-l3{
+  width: 290px;
+  height: 290px;
+}
+
+.row4 span {
+  color: #feca30;
+  text-transform:uppercase;
+  margin:1.5em 0 .3em 0;
+  font-size: 1.2em
+}
+footer{
+  background:#222;
+  width:100%;
+  padding:0;
+  z-index:10;
+  position:relative;
+}
+.row4{
+  -webkit-column-count:2;
+  -moz-column-count:2;
+  column-count:2;
+  background: rgb(44, 44, 44);
+  padding-top: 2%;  
+  text-align: justify;
+}
+select{
+  block-size: 35px;
+  size: 60px;
 }
