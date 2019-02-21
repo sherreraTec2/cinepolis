@@ -62,6 +62,7 @@ position: absolute;
 
 .mySlides {
   display: none;
+  padding-top: 148px;
 }
 
 /* Next & previous buttons */
