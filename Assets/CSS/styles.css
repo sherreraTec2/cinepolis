@@ -102,3 +102,32 @@ select{
   block-size: 35px;
   size: 60px;
 }
+footer ul.logosReconocimientos {
+  text-align: center;
+  padding: 10px 0;
+  vertical-align: baseline;
+}
+footer ul.logosReconocimientos img {
+  max-width: 95px;
+}
+footer ul.logosReconocimientos li {
+  display: inline-block;
+  margin: 0 2px;
+  vertical-align: middle;
+  float: none;
+}
+footer ul.logosReconocimientos li img.recCoca-Cola {
+  max-width: 48px;
+}
+footer ul.logosReconocimientos li img.receCommerce {
+  max-width: 120px;
+}
+footer ul.logosReconocimientos li img.recComScore {
+  max-width: 134px;
+}
+footer ul.logosReconocimientos li img.recAMIPCI, footer ul.logosReconocimientos li img.recExpansionSuperEmpresas {
+  max-width: 91px;
+}
+footer ul.logosReconocimientos li img.recESR {
+  max-width: 120px;
+}
