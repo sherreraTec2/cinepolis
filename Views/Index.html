@@ -3,6 +3,9 @@
   <head>
     <title>Cinepolis</title>
     <link rel="stylesheet" type="text/css" href="../Assets/CSS/styles.css">
+    <!--EXPORTANDO FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta charset="UTF-8">
   </head>
   <body>
     <header>
@@ -33,60 +36,113 @@
             </li>
             <li>
               <div class="iniciarSesion">
-                <img src="http://static.cinepolis.com/img/icon-ID.png" alt="logo-login">
-                <br>
-                <span>Iniciar sesión</span>
+                <div class="">
+                  <img src="http://static.cinepolis.com/img/icon-ID.png" alt="logo-login">
+                </div>
+                <div class="">
+                    <span>Iniciar sesión</span>
+                </div>
               </div>
             </li>
           </ul>
         </div>
-        <div class="row2" style="background-color: #323232;">
+        <div class="row2" >
           <div class="row2L">
-            <a href="#"><i>hamburger-icon</i>Menú</a><!--<div><i></i></div>-->
+            <a href="#" id="display-menu"><i class="fas fa-chevron-down icon-down"></i>Menú</a><!--<div><i></i></div>-->
             <a href="#">Próximos estrenos</a>
             <a href="#">Preventas</a>
             <a href="#">
-                <img src="https://static.cinepolis.com/img/lg-cinepolis-vr.png" alt="cinepolis-vr-logo" style="width: 10%; height: auto;">
+                <img src="https://static.cinepolis.com/img/lg-cinepolis-vr.png" alt="cinepolis-vr-logo">
             </a>
           </div>
           <div class="row2R">
             <ul>
               <li>
                 <a href="#">
-                  <i>Facebook</i>
+                  <i class="fab fa-facebook-f fa-2x"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i>Twiter</i>
+                  <i class="fab fa-twitter fa-2x"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i>Instragram</i>
+                  <i class="fab fa-instagram fa-2x"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i>YouTube</i>
+                  <i class="fab fa-youtube fa-2x"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i>Google+</i>
+                  <i class="fab fa-google-plus-g fa-2x"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i>in</i>
+                  <i class="fab fa-linkedin-in fa-2x"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i>Phone</i>
+                  <i class="fas fa-mobile-alt fa-2x"></i>
                 </a>
               </li>
             </ul>
+          </div>
+        </div>
+        <div class="menu-div" id="div-menu">
+          <div class="row-sup">
+            <div class="res-menu">
+              <a href="#" id="a-menu" class="img-menu" onmouseover="resaltar(this);" onmouseout="original(this);">
+                <label for="">Proximos Estrenos</label>
+                <br>
+                <img src="https://static.cinepolis.com/img/1/2019213164014924.jpg" alt="" id="img-menu">
+              </a>
+            </div>
+            <div class="res-menu">
+              <a href="#" class="img-menu">
+                <label for="">Muestras y festivales</label>
+                <br>
+                <img src="https://static.cinepolis.com/img/1/20192594432147.jpg" alt="" class="image-menu">
+              </a>
+            </div>
+            <div class="res-menu">
+              <a href="#" class="img-menu">
+                <label for="">Promociones</label>
+                <br>
+                <img src="https://static.cinepolis.com/img/1/20192810920513.jpg" alt="" class="image-menu">
+              </a>
+            </div>
+            <div class="res-menu">
+              <a href="#" class="img-menu" >
+                <label for="">+Que cine</label>
+                <br>
+                <img src="https://static.cinepolis.com/img/1/201921494638454.jpg" alt="" class="image-menu">
+              </a>
+            </div>
+            <div class="res-menu">
+              <a href="#" class="img-menu">
+                <label for="">Sala Arte</label>
+                <br>
+                <img src="https://static.cinepolis.com/img/1/201921316404197.jpg" alt="" class="image-menu">
+              </a>
+            </div>
+            <div class="res-menu">
+              <a href="#" class="img-menu" >
+                <label for="">Ver peliculas en Klic</label>
+                <br>
+                <img src="https://static.cinepolis.com/img/1/2019215122256207.jpg" alt="" class="image-menu">
+              </a>
+            </div>
+          </div>
+          <hr>
+          <div class="row-inf">
+              <img src="../Assets/img/captura.png" alt="">
           </div>
         </div>
       </nav>
@@ -151,21 +207,15 @@
       </section>
     </main>
     <footer style="background-color: #212121;">
-      <div class="row4" style="background-color: #424242;">
+      <div class="row" style="background-color: #424242;">
         <div class="col l6">
           <span>CATALOGO DE PELICULAS</span>
-          <br>
-          <select class="" placeholder="Busca una película" >
-            <option value="" >Busca una película</option>
-          </select>
+          <input type="text" name="" value="">
         </div>
-        <div class="col6">
-          <span>CAMBIAR DE PAIS</span>
-          <br>
+        <div class="col l6">
+          <span>CAMBIAR DE PAID</span>
           <select class="" name="">
-            <option value="">México 
-              <a href="../Assets/img/mx.png"></a>
-            </option>
+            <option value="">México</option>
             <option value="">USA</option>
           </select>
         </div>
@@ -214,70 +264,74 @@
             </li>
           </ul>
         </div>
-        <div class="rowM">
-          <div class="col-l3">
-            <span class="TitSpam">CARTELERA</span>
+        <div class="row">
+          <div class="col l3">
+            <span>Cartelera</span>
             <hr>
-            <ul class="list1">
-              <li class="item"><a href="">Preventas</a></li>
-              <li class="item"><a href="">Garantia cinepolis</a></li>
-              <li class="item"><a href="">Muestras y festivales</a></li>
-              <li class="item"><a href="">+ Que cine</a></li>
-              <li class="item"><a href="">Proximos estrenos</a></li>
-              <li class="item"><a href="">Cumpleaños de Pelicula</a></li>
+            <ul>
+              <li><a>Preventas</a></li>
+              <li><a>Garantia cinepolis</a></li>
+              <li><a>Muestras y festivales</a></li>
+              <li><a>+ Que cine</a></li>
+              <li><a>Proximos estrenos</a></li>
+              <li><a>Cumpleaños de Pelicula</a></li>
+
             </ul>
           </div>
-          <div class="col-l3">
-            <span class="TitSpam">¿QUIÉNES SOMOS?</span>
+          <div class="col l3">
+            <span>¿Quienes somos?</span>
             <hr>
-            <ul class="list1">
-              <li class="item"><a href="">Proveedores</a></li>
-              <li class="item"><a href="">Trabaja en cinepolis</a></li>
-              <li class="item"><a href="">Corporativo</a></li>
-              <li class="item"><a href="">Proximas Aperturas</a></li>
-              <li class="item"><a href="">Ventas Corporativas</a></li>
+            <ul>
+              <li><a>Proveedores</a></li>
+              <li><a>Trabaj en cinepolis</a></li>
+              <li><a>Corporativo</a></li>
+              <li><a>Proximas Aperturas</a></li>
+              <li><a>Ventas Corporativas</a></li>
+
             </ul>
           </div>
-          <div class="col-l3">
-            <span class="TitSpam">LEGALES</span>
+          <div class="col l3">
+            <span>Legales</span>
             <hr>
-            <ul class="list1">
-              <li class="item"><a href="">Terminos y condiciones</a></li>
-              <li class="item"><a href="">Avisos de privacidad</a></li>
-              <li class="item"><a href="">Terminos cinecash</a></li>
+            <ul>
+              <li><a>Terminos y condiciones</a></li>
+              <li><a>Avisos de privacidad</a></li>
+              <li><a>Terminos cinecash</a></li>
+
             </ul>
           </div>
-          <div class="col-l3">
-            <spam class="TitSpam">CONTACTO</spam>
+          <div class="col l3">
+            <span>Contacto</span>
             <hr>
-            <ul class="list1">
-              <li class="item">
-                <a href="">
-                <img src="../Assets/img/fac.PNG">
-                <span>Facturación</span>
+            <ul>
+              <li>
+                <a>
+                <i>icon-Factura</i>
+                <span>Factiracion</span>
                 </a>
               </li>
-              <li class="item">
-                <a href="">
-                  <img src="../Assets/img/com.PNG">
+              <li>
+                <a>
+                <i>icon-mail</i>
                 <span>Deja tus comentario</span>
                 </a>
               </li>
-              <li class="item">
-                <a href="">
-                  <img src="../Assets/img/chat.PNG">
+              <li>
+                <a>
+                <i>icon-chat</i>
                 <span>Chatea con los expertos</span>
                 </a>
               </li>
-              <li class="item">
-                <a href="">
-                  <img src="../Assets/img/tel.PNG">
+              <li>
+                <a>
+                <i>icon-Phone</i>
                 <span>01 552 122 60</span>
                 </a>
               </li>
             </ul>
           </div>
         </div>
+
       </div>
       <div class="">
         <ul>
@@ -314,11 +368,11 @@
         </ul>
 
       </div>
-      <div class="copyright-row">
-        <div class="ts">
+      <div class="copiright row">
+        <div class="col l6">
           <span>Contenido del sitio 2014©  Cinépolis® de México, S.A. de C.V.</span>
         </div>
-        <div class="copyright-right">
+        <div class="col l6">
           <a href="http://www.ia.com.mx">
             <span>Desarrollado por IA Interactive</span>
           </a>
@@ -326,5 +380,8 @@
       </div>
     </footer>
   </body>
+  <script type="text/javascript" src="../Assets/JS/index.js"></script>
+
+  </script>
+
 </html>
- 
