@@ -102,3 +102,29 @@ select{
   block-size: 35px;
   size: 60px;
 }
+
+.MarcasFooter {
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.MarcasFooter li {
+    display: inline-block;
+    float: none;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+.MarcasFooter ul {
+    float: none;
+    margin: auto;
+   
+}
+.primerc{
+    padding-right: 200px;
+}
+.segundac{
+    padding-right: 200px;
+}
