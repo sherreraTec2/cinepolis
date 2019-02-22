@@ -21,7 +21,7 @@ ul{
   width: 100%;
 }
 li{
-  float:left;
+  float: left;
 }
 li a{
   display: block;
@@ -46,7 +46,7 @@ li select{
 }
 .row2L{
 margin-left: auto;
-margin-right: auto;
+margin-right: 0;
 }
 .row2R{
 margin-left: auto;
@@ -121,8 +121,8 @@ text-align: center;
 }
 .menu-div hr{
   color: #252525;
-  margin-left: 180px;
-  margin-right: 180px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .row-sup{
 display: grid;
@@ -148,7 +148,7 @@ padding-top: 20px;
   text-align: center;
 }
 .row-inf img{
-  width: 60%;
+  width: auto;
   height: auto;
   margin-left: 2%;
 }
