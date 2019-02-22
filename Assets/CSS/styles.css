@@ -126,7 +126,7 @@ text-align: center;
 }
 .row-sup{
 display: grid;
-grid-template-columns: 16% 16% 16% 16% 16% 16%;
+grid-template-columns: auto auto auto auto auto auto;
 margin-left: 21%;
 margin-right: 17%;
 padding-top: 20px;
