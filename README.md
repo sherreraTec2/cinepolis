@@ -1,5 +1,6 @@
 # cinepolis
-Recreación cinepolis
+Recreación cinepolis ejemplo proporcionado por el ingeniero
+Para demostrar el uso correcto de GitHub
 
 
 #### LIDER
